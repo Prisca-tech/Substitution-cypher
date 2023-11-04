@@ -47,6 +47,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'substitutioncypher',
+    'rest_framework'
 ]
 
 ROOT_URLCONF = 'substitution_cypher.urls'
